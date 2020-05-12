@@ -1,5 +1,8 @@
-
 博文地址：http://piaoyun.cc/1419.html
+
+gitee地址（国内）：https://gitee.com/piaoyun/proxychains-ng
+github地址（国外）：https://github.com/piaoyun/proxychains-ng
+
 
 资源搬家，转自：https://github.com/rofl0r/proxychains-ng
 
@@ -8,6 +11,7 @@ http://sourceforge.net/projects/proxychains-ng/files
 
 
 # 1.安装：
+国内：
 ```bash
 git clone https://gitee.com/piaoyun/proxychains-ng
 cd proxychains-ng
@@ -17,6 +21,18 @@ cp ./src/proxychains.conf /etc/proxychains.conf
 #删除目录(可不执行)
 cd .. && rm -rf proxychains-ng
 ```
+
+国外：
+```bash
+git clone https://github.com/piaoyun/proxychains-ng
+cd proxychains-ng
+./configure
+make && make install
+cp ./src/proxychains.conf /etc/proxychains.conf
+#删除目录(可不执行)
+cd .. && rm -rf proxychains-ng
+```
+
 
 # 2.配置
 ```bash
